@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ferramentas para profissionais: ofertas e achados para eletricistas e pedreiros.">
+  <title>Ferramentas para Profissionais</title>
+  <style>
+    :root{
+      --bg:#111111;
+      --card:#1b1b1b;
+      --text:#f5f5f5;
+      --muted:#b9b9b9;
+      --accent:#f5c400;
+      --accent2:#ffd83d;
+      --border:#303030;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:linear-gradient(180deg,#0d0d0d 0%,#171717 100%);
+      color:var(--text);
+      min-height:100vh;
+    }
+    .wrap{max-width:760px;margin:0 auto;padding:24px 18px 44px}
+    .top{
+      text-align:center;
+      padding:18px 0 10px;
+    }
+    .badge{
+      display:inline-block;
+      border:1px solid #4a4a4a;
+      color:var(--accent2);
+      border-radius:999px;
+      padding:8px 13px;
+      font-size:13px;
+      font-weight:700;
+      letter-spacing:.3px;
+      margin-bottom:18px;
+    }
+    h1{
+      font-size:clamp(32px,7vw,52px);
+      line-height:1.02;
+      margin:0 0 14px;
+      letter-spacing:-1.4px;
+    }
+    .sub{
+      max-width:620px;
+      margin:0 auto;
+      color:var(--muted);
+      font-size:18px;
+      line-height:1.55;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:14px;
+      margin:28px 0;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:22px 18px;
+    }
+    .icon{font-size:34px;margin-bottom:10px}
+    .card h2{font-size:20px;margin:0 0 8px}
+    .card p{color:var(--muted);line-height:1.45;margin:0}
+    .offers{
+      background:#f4c400;
+      color:#111;
+      border-radius:22px;
+      padding:26px 22px;
+      text-align:center;
+      box-shadow:0 10px 35px rgba(0,0,0,.28);
+    }
+    .offers h2{font-size:27px;margin:0 0 9px}
+    .offers p{margin:0 0 20px;line-height:1.45;font-weight:600}
+    .button{
+      display:block;
+      width:100%;
+      max-width:520px;
+      margin:0 auto;
+      padding:17px 20px;
+      border-radius:13px;
+      background:#111;
+      color:#fff;
+      text-decoration:none;
+      font-size:18px;
+      font-weight:800;
+    }
+    .button:hover{background:#222}
+    .note{
+      text-align:center;
+      color:#8f8f8f;
+      font-size:12px;
+      line-height:1.5;
+      margin:24px auto 0;
+      max-width:650px;
+    }
+    .footer{
+      text-align:center;
+      color:#737373;
+      font-size:11px;
+      line-height:1.5;
+      margin-top:32px;
+    }
+    @media(max-width:560px){
+      .grid{grid-template-columns:1fr}
+      .wrap{padding-left:14px;padding-right:14px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="top">
+      <div class="badge">🔨 OFERTAS E ACHADOS</div>
+      <h1>Ferramentas para<br>Profissionais</h1>
+      <p class="sub">
+        Ofertas, kits e ferramentas selecionadas especialmente para
+        <strong>eletricistas</strong> e <strong>pedreiros</strong>.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="icon">⚡</div>
+        <h2>Para eletricistas</h2>
+        <p>Alicates, multímetros, ferramentas isoladas, organizadores e outros equipamentos úteis para instalações.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">🧱</div>
+        <h2>Para pedreiros</h2>
+        <p>Ferramentas manuais, acessórios, equipamentos e itens que ajudam no dia a dia da obra.</p>
+      </article>
+    </section>
+
+    <section class="offers">
+      <h2>📲 Receba as ofertas</h2>
+      <p>
+        As promoções e achados são publicados no nosso grupo do WhatsApp.
+        Entre gratuitamente e acompanhe as oportunidades.
+      </p>
+      <a class="button"
+         href="https://chat.whatsapp.com/H2exKm7snstDP88CuBTicP?mode=gi_t"
+         target="_blank" rel="noopener noreferrer">
+        ENTRAR NO GRUPO DO WHATSAPP
+      </a>
+    </section>
+
+    <p class="note">
+      Os preços, descontos, disponibilidade e condições podem mudar sem aviso,
+      conforme o vendedor e o estoque.
+    </p>
+
+    <footer class="footer">
+      Página independente. Os preços, descontos, disponibilidade e condições das ofertas
+      podem mudar conforme o vendedor e o estoque.
+    </footer>
+  </main>
+</body>
+</html>
